@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 
-<html>
-	<head lang="pt-br">
-		<title> home </title>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title> Home </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--Botstrap-->
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	
 	</head>
 	
 	<body>
-		<h1> Hello Word!!! </h1>
+	
+		<ul class="nav nav-tabs navbar-fixed-top">
+		  <li class="active"><a href="index.html" class="branco"> Home </a></li>
+		  <li><a href="sobre.html" class="branco"> Sobre </a></li>
+		  <li><a href="galeria.html" class="branco"> Galeria </a></li>
+		  <li><a href="slides.html" class="branco"> Slides </a></li>
+		  <li><a href="contato.html" class="branco"> Contato </a></li>
+		</ul>
+				
+		<div class="container">
+			
+			<header class="page-header">
+				<h1> Jéssica Dias de Souza</h1>
+			</header>
+			
+			<div class="row">
+				<div role="main" class="col-md-8">
+					
+					<div id="miniaturas" class="row">
+						<div class="col-md-3">
+								<a class="thumbnail" href="#">
+									<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-9/12141701_856548464459095_5998386715602655015_n.jpg?oh=40d0b92fc884b381c4018dee0b9cf3d9&oe=56E61CD7&__gda__=1458848008_5cf8a94096c68a8b74d646f5798914c4" class="img-responsive"/>
+								</a>
+							</div>
+					</div>
+					
+					<h2> Aula de Wev Server </h2>
+					
+					<p>
+						Estudos da aula de Desenvolvimento Web Server , com o professor Eduardo Heredia, do  
+						curso de tecnologia em produção multimídia do terceiro semestre.
+						A aula consiste no aprendizado de Github, Bootstrap e PHP.
+					</p>
+					
+					<p>
+						Esse é um trabalho para o aprendizado de Bootstrap, cuja referência esta no guia do bootstrap 3,
+						para isso, também foi utilizado o Github para commitar os arquivos e o Heroku para rodá-los.
+					</p>
+					
+				
+				</div>
+				
+				<aside role="complementary" class="col-md-4">
+					<div id="widget-about" class="panel panel default"
+						<div class="panel-body">
+							<h4> Sobre Jéssica </h4>
+							<p> Estudante de produção multimídia, apaixonada pelo que faz. Esta a procura de um estágio para melhor desenvolvimento e crescimento pessoal e profissional.</p>
+						</div>
+						
+						
+					<div id="widget-links" class="panel panel-default">
+						<div class="panel-body">
+								<h4> links </h4>
+								<ul class="list-unstyled">
+									<li> <a href="https://www.facebook.com/jessica.dias.739?pnref=story"> Facebook </a></li>
+									<li> <a href="https://www.linkedin.com/hp/?dnr=9A51Nw4f1I1zXDLn9VC6NHGZ6uWaXlxs_lZ5"> Linkedin </a></li>
+									<li> <a href="http://jessicadesignearts.wix.com/jessicadiasdesouza#!sobre/c240r">Portfólio </a></li>
+								</ul>
+						</div>
+					</div>	
+				</aside>		
+				
+			
+					
+			
+			</div> <!-- row -->
+			<footer>
+				<p class="text-muted">&copy; 2015 - Web Dev Academy <p>
+			</footer>
+		
+		</div>
+	
+		<script src="js/jquery.js"> </script>
+		<script src="js/bootstrap.min.js"> </script>
+
 	</body>
-</html>
+
+</html>	
