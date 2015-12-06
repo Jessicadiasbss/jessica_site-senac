@@ -39,12 +39,12 @@
 					
 					<div class="form-group">
 						<label for="imputSubject"> Assunto </label>
-						<input type="text" placeholder="Seu Assunto" class="form-control" id="imputSubject">
+						<input type="text" placeholder="Seu Assunto" name="campo_assunto" class="form-control" id="imputSubject">
 					</div>
 					
 					<div class="form-group">
 						<label for="textMessage"> Mensagem </label>
-						<input type="textMessage" placeholder="Sua mensagem" class="form-control" rows="10"> </textarea>
+						<input type="textMessage" placeholder="Sua mensagem" name="campo_mensagem" class="form-control" rows="10"> </textarea>
 					</div>
 					
 					<button typw="submit" class="btn btn-defalt"> Enviar </button>
